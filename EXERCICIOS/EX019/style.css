@@ -1,0 +1,37 @@
+@charset "UTF-8";
+/*
+    em html e id = em css # (apenas 1 elemento
+    em html e class = em css .(varios elementos0
+*/
+body{
+    background-color: aquamarine;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1{
+    color: rgb(124, 189, 58);
+}
+h1#principal{
+    text-align: center;
+    background-color: green;
+    color: white;
+    border-radius: 5px;
+}
+h2{
+    color: darkgreen;
+}
+h2.basico{
+    font-weight: bold;
+    text-align: center;
+    color: red;
+}
+h2.intermediario{
+    text-align: right;
+    color: black;
+}
+h2.avancado{
+    color: blue;
+}
+.destaque{
+    border-radius: 2px;
+    background-color: chartreuse;
+}

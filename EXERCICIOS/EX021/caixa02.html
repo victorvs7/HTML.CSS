@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>grouping tag</title>
+    <style>
+        body{
+
+            background-color: aqua;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        header{
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+        }
+        nav{
+            
+            padding: 3px;
+            background-color: cyan;
+            box-shadow: 1px 1px 1px black;
+        }
+        nav > a {
+            text-decoration: none;
+            font-weight: bold;
+            margin-left: 5px;
+        }
+        nav:hover{
+            background-color: red;
+        }
+        main{
+            background-color: white;
+            margin: 10px;
+            padding: 10px;
+        }
+        article{
+            padding: 5px;
+            background-color: bisque;
+        }
+
+        footer{
+            padding: 5px;
+            text-align: center;
+            color: white;
+            background-color: black;
+            padding: 4px;
+            margin: 0px;
+        }
+        footer >p {
+            margin: 0px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>meu site</h1>
+        <nav>
+            <a href="">link</a>
+            <a href="">link</a>
+            <a href="">link</a>
+            <a href="">link</a>
+        </nav>
+    </header>
+
+    <main>
+        <section id="assunto">
+
+        </section>
+        <section id="noticias">
+            <article>
+                <h2>noticias sobre o brasil</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur accusantium ab assumenda, reprehenderit minima delectus nesciunt? Pariatur laboriosam tenetur voluptas, dignissimos architecto neque cumque distinctio possimus. Facilis optio debitis eaque?</p>
+            </article>
+            <aside>artigo escrito por jose da silva</aside>
+        </section>
+    </main>
+
+    <footer>
+        <p>desenvolvido pelo cursoem/videos</p>
+    </footer>
+</body>
+</html>
